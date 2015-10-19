@@ -23,6 +23,22 @@ require_relative "spec_helper"
     expect(dictionary.class).to eql(HangMan::Dictionary)
   end
 
+  before :all  do
+    FakeFS.activate!  
+    FileUtils.mkdir_p("/tmp")
+    Dir.mkdir("./lib")  
+    Dir.mkdir("./lib/hangman")  
+    File.open("./lib/hangman/5desk.txt", "w+") do |line|
+      line.puts("tabernacle")
+      line.puts("type")
+      line.puts("radio-proactivity")
+    end
+  end
+
+  after :all do
+    FakeFS.deactivate!
+  end
+
 
   describe "#get_user_input" do
     before :each do 
@@ -71,7 +87,7 @@ require_relative "spec_helper"
     before :each do
       allow(game).to receive(:puts).and_return(nil)
       allow(game).to receive(:sleep).and_return(nil)
-      allow(game).to receive(:gets).and_return(nil)
+      # allow(game).to receive(:gets).and_return(nil)
     end
 
     it "should return true for successful method call" do

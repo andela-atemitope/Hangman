@@ -83,6 +83,7 @@ module HangMan
       @answer_loaded = load_file[2].chars
       @lives_loaded = load_file[3].to_i
       obj = obj || GamePlay.new
+      # require "pry"; binding.pry
       obj.load_saved_game(word_loaded, remaining_letters_loaded, answer_loaded, lives_loaded)
     end
 
