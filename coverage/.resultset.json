@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "c:/Users/currys/workspace/Hangman/lib/hangman.rb": [
+      "C:/Users/currys/workspace/Hangman/lib/hangman.rb": [
         1,
         1,
         1,
@@ -96,7 +96,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/Hangman/lib/hangman/game_display.rb": [
+      "C:/Users/currys/workspace/Hangman/lib/hangman/game_display.rb": [
         1,
         1,
         null,
@@ -217,7 +217,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/Hangman/lib/hangman/save_load.rb": [
+      "C:/Users/currys/workspace/Hangman/lib/hangman/save_load.rb": [
         1,
         null,
         1,
@@ -311,7 +311,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/Hangman/lib/hangman/dictionary.rb": [
+      "C:/Users/currys/workspace/Hangman/lib/hangman/dictionary.rb": [
         1,
         1,
         null,
@@ -334,7 +334,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/Hangman/lib/hangman/game_play.rb": [
+      "C:/Users/currys/workspace/Hangman/lib/hangman/game_play.rb": [
         1,
         1,
         null,
@@ -414,7 +414,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/Hangman/lib/hangman/win_lose.rb": [
+      "C:/Users/currys/workspace/Hangman/lib/hangman/win_lose.rb": [
         1,
         1,
         1,
@@ -451,7 +451,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/hangman/spec/game_play_spec.rb": [
+      "C:/Users/currys/workspace/Hangman/spec/game_play_spec.rb": [
         1,
         null,
         1,
@@ -618,7 +618,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/hangman/spec/hangman_spec.rb": [
+      "C:/Users/currys/workspace/Hangman/spec/hangman_spec.rb": [
         1,
         null,
         1,
@@ -825,7 +825,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/hangman/spec/save_load_spec.rb": [
+      "C:/Users/currys/workspace/Hangman/spec/save_load_spec.rb": [
         1,
         null,
         1,
@@ -996,7 +996,7 @@
         null,
         null
       ],
-      "c:/Users/currys/workspace/hangman/spec/win_lose_spec.rb": [
+      "C:/Users/currys/workspace/Hangman/spec/win_lose_spec.rb": [
         1,
         null,
         1,
@@ -1063,6 +1063,6 @@
         null
       ]
     },
-    "timestamp": 1445267604
+    "timestamp": 1445270502
   }
 }
