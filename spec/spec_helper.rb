@@ -11,4 +11,9 @@ require_relative "../lib/hangman.rb"
 require_relative "../lib/hangman/win_lose.rb"
 
 
+class Hangman::Dictionary
+  def generate_word
+    generate_word = ["g", "e", "n", "e", "r", "a", "t", "e", "d"]
+  end
+end
 SimpleCov.formatter = SimpleCov::Formatter::ShieldFormatter
