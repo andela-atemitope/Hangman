@@ -1,4 +1,4 @@
-# Hangman        [![Coverage Status](https://cdn.rawgit.com/andela-atemitope/Hangman/master/coverage/coverage.svg)](http://andela-atemitope.github.io/Hangman/coverage/#_AllFiles)
+# Hangman        [![Code Climate](https://codeclimate.com/github/andela-atemitope/Hangman/badges/gpa.svg)](https://codeclimate.com/github/andela-atemitope/Hangman)
 
 
 Hangman is a word game with unknown origins. A word is meant to be guessed and this word is represented by a row of dashes, representing each letter of the word. Words you cannot use include proper nouns such as names, places, and brands. If the guessing player suggests a letter which occurs in the word, the other player writes it in all its correct positions.
