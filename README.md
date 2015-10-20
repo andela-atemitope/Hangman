@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Hangman        [![Code Climate](https://codeclimate.com/github/andela-atemitope/Hangman/badges/gpa.svg)](https://codeclimate.com/github/andela-atemitope/Hangman)
-=======
 # Hangman
 
 [![Code Climate](https://codeclimate.com/github/andela-atemitope/Hangman/badges/gpa.svg)](https://codeclimate.com/github/andela-atemitope/Hangman)  [![Test Coverage](https://codeclimate.com/github/andela-atemitope/Hangman/badges/coverage.svg)](https://codeclimate.com/github/andela-atemitope/Hangman/coverage)
