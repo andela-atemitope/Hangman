@@ -24,10 +24,10 @@ require_relative "spec_helper"
   end
 
   before :all  do
-    FakeFS.activate!  
+    FakeFS.activate!
     FileUtils.mkdir_p("/tmp")
-    Dir.mkdir("./lib")  
-    Dir.mkdir("./lib/hangman")  
+    Dir.mkdir("./lib")
+    Dir.mkdir("./lib/hangman")
     File.open("./lib/hangman/5desk.txt", "w+") do |line|
       line.puts("tabernacle")
       line.puts("type")
@@ -41,7 +41,7 @@ require_relative "spec_helper"
 
 
   describe "#get_user_input" do
-    before :each do 
+    before :each do
       allow(display).to receive(:display_new_intro).and_return(nil)
       # allow(game).to receive(:puts).and_return(nil)
       allow(display).to receive(:intro).and_return(nil)
@@ -51,29 +51,29 @@ require_relative "spec_helper"
     end
 
 
-    it "should return true for load game input" do 
+    it "should return true for load game input" do
       allow(game).to receive(:gets).and_return("load")
       allow(game).to receive(:load_initial_saved_game).and_return(true)
       expect(game.get_user_input).to be true
     end
-  
 
 
-    
+
+
     it "should return true for start game input" do
       allow(game).to receive(:gets).and_return("start")
       allow(game).to receive(:start_new_game).and_return(true)
       expect(game.get_user_input).to be true
     end
-  
 
-  
+
+
     it "should throw an error for exit game input" do
       allow(game).to receive(:gets).and_return("exit")
       allow(game).to receive(:start_new_game).and_return(true)
       expect{game.get_user_input}.to raise_error SystemExit
     end
- 
+
 
     it "should throw an error for inappropriate input" do
       allow(game).to receive(:gets).and_return("test")
@@ -93,12 +93,12 @@ require_relative "spec_helper"
     it "should return true for successful method call" do
       allow(game).to receive(:generate_remaining_letters).and_return(nil)
       game.start_new_game
-      expect(game.word).to be_an(Array) 
+      expect(game.word).to be_an(Array)
     end
 
 
     it "should return true for successful method call" do
-      allow(dictionary).to receive(:generate_word).and_return(nil)
+      # allow(dictionary).to receive(:generate_word).and_return(nil)
       allow(game).to receive(:generate_remaining_letters).and_return(true)
       expect(game.start_new_game).to be true
     end
