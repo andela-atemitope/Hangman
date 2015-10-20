@@ -2,11 +2,6 @@
 # //Coveralls.wear!
 require "simplecov"
 require "fakefs/safe"
-require_relative "../lib/hangman/save_load.rb"
-require_relative "../lib/hangman/game_display.rb"
-require_relative "../lib/hangman/dictionary.rb"
-require_relative "../lib/hangman.rb"
-require_relative "../lib/hangman/win_lose.rb"
 require "codeclimate-test-reporter"
 
 SimpleCov.start do
@@ -16,8 +11,4 @@ SimpleCov.start do
  ]
 end
 
-class Hangman::Dictionary
-  def generate_word
-    generate_word = ["g", "e", "n", "e", "r", "a", "t", "e", "d"]
-  end
-end
+require "hangman"
