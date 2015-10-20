@@ -28,7 +28,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After Installation, Run the "hangman" gem in your Command Line Interface. After the welcome screen has been displayed, proceed by entering the desired option "start", "load", or "exit". Enjoy your game!
 
 ## Development
 
